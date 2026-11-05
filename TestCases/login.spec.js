@@ -5,7 +5,7 @@ const data = require('../data/users.js');
 test('open and close the application', async ({ page }) => {
     const pageMapperInstance = new PageMapper(page);
 
-    await page.pause();
+    //await page.pause();
     //Launching the application
     await pageMapperInstance.getLoginPageInstance().openApplication();
 
