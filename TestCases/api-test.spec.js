@@ -13,7 +13,7 @@ test('Handing API requests ', async ({ request }) => {
     console.log(await response1.json());
 });
 
-test.only('Handing API requests 2 ', async () => {
+test('Handing API requests 2 ', async () => {
     const reqContext = await request.newContext({
         baseURL: "https://restful-booker.herokuapp.com/"
     })
