@@ -44,7 +44,7 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         baseURL: process.env.BASE_URL,
         browserName: 'chromium',
-        headless: false
+        headless: true
       },
     },
 
