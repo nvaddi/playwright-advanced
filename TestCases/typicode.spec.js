@@ -57,7 +57,7 @@ test('GET API and save JSON response', async ({ request }) => {
     console.log('API response saved into json-responses/users-response.json');
 });
 
-test.only('POST API and save JSON response', async ({ request }) => {
+test('POST API and save JSON response', async ({ request }) => {
 
     const response = await request.post(
         'https://jsonplaceholder.typicode.com/posts',
